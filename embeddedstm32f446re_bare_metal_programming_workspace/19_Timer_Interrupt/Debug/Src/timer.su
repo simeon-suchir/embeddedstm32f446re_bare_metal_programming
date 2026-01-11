@@ -1,0 +1,3 @@
+C:/Users/Simeon Suchir/OneDrive/Documents/embeddedstm32f446re_bare_metal_programming_workspace/F4_chip_headers/chip_headers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+../Src/timer.c:6:6:tim2_1hz_init	4	static
+../Src/timer.c:19:6:tim2_1hz_interrupt_init	8	static

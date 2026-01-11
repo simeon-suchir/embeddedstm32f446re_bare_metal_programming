@@ -1,0 +1,19 @@
+/*
+ * spi.h
+ *
+ *  Created on: Jun 2, 2025
+ *      Author: Simeon Suchir
+ */
+
+#ifndef SPI_H_
+#define SPI_H_
+
+#include "stm32f4xx.h"
+#include <stdint.h>
+void SPI1_gpio_init(void);
+void SPI1_config(void);
+void SPI1_transmit(uint8_t *data,uint32_t size);
+void SPI1_recieve(uint8_t *data,uint32_t size);
+void cs_enable(void);
+void cs_disable(void);
+#endif /* SPI_H_ */

@@ -1,0 +1,25 @@
+20:03:53 **** Incremental Build of configuration Debug for project 22_SPI_adxl ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/spi.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DSTM32F446xx -c -I../Inc -I"C:/Users/Simeon Suchir/OneDrive/Documents/embeddedstm32f446re_bare_metal_programming_workspace/F4_chip_headers/chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Simeon Suchir/OneDrive/Documents/embeddedstm32f446re_bare_metal_programming_workspace/F4_chip_headers/chip_headers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/spi.d" -MT"Src/spi.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/spi.o"
+../Src/spi.c: In function 'SPI1_transmit':
+../Src/spi.c:69:17: warning: variable 'temp' set but not used [-Wunused-but-set-variable]
+   69 |         uint8_t temp;
+      |                 ^~~~
+arm-none-eabi-gcc -o "22_SPI_adxl.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Simeon Suchir\OneDrive\Documents\embeddedstm32f446re_bare_metal_programming_workspace\22_SPI_adxl\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="22_SPI_adxl.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 22_SPI_adxl.elf
+ 
+arm-none-eabi-size  22_SPI_adxl.elf 
+arm-none-eabi-objdump -h -S 22_SPI_adxl.elf  > "22_SPI_adxl.list"
+   text	   data	    bss	    dec	    hex	filename
+   3272	      8	   1608	   4888	   1318	22_SPI_adxl.elf
+Finished building: default.size.stdout
+ 
+Finished building: 22_SPI_adxl.list
+ 
+20:04:21 **** Incremental Build of configuration Debug for project 22_SPI_adxl ****
+make -j16 all 
+arm-none-eabi-size  22_SPI_adxl.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3272	      8	   1608	   4888	   1318	22_SPI_adxl.elf
+Finished building: default.size.stdout
+ 

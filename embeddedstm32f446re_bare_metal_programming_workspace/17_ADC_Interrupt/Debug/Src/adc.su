@@ -1,0 +1,5 @@
+C:/Users/Simeon Suchir/OneDrive/Documents/embeddedstm32f446re_bare_metal_programming_workspace/F4_chip_headers/chip_headers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+../Src/adc.c:13:6:pa1_adc_interrupt_intit	8	static
+../Src/adc.c:43:6:pa1_adc_intit	4	static
+../Src/adc.c:70:6:start_conversion	4	static
+../Src/adc.c:78:10:adc_read	4	static

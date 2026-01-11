@@ -1,0 +1,7 @@
+1747106478072	Delete resource '1_led_toggle_addr_struct'
+1747144280887	Delete resource 'test'
+1747228604279	Rename resource '6_uart_printf'
+1747229296089	Rename resource '6_uart_modular'
+1747229310801	Rename resource '7_uart_printf'
+1747229467218	Delete resource '7_uart_modular'
+1747281965693	Rename resource '9_adc'
